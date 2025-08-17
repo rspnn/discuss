@@ -8,7 +8,7 @@ const Navbar = ({ authUser, signOut }) => {
   return (
     <div>
       <nav>
-        <h1 className="logo">Discuss 🗣️</h1>
+        <h1 className="logo">🗣️ Discuss</h1>
         <ul className="nav-links">
           <li>
             <Link to="/">
