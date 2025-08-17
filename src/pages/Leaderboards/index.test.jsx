@@ -6,6 +6,7 @@
  *      - Each item should display rank, user name, and score
  *
  * */
+import React from 'react';
 import { describe, it, expect, vi } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import { Provider } from 'react-redux';
@@ -19,7 +20,7 @@ vi.mock('../../states/leaderboards/action', () => ({
 
 function renderWithStore(initialState) {
   const store = configureStore({
-    reducer: (state = initialState, action) => state,
+    reducer: (state = initialState) => state,
     preloadedState: initialState,
   });
 
