@@ -64,6 +64,8 @@ describe('Login spec', () => {
       .contains(/^Login$/)
       .click();
 
-    cy.get('button').contains('Sign Out').should('be.visible');
+    cy.get('nav')
+      .contains(/^Sign Out$/)
+      .should('be.visible');
   });
 });
