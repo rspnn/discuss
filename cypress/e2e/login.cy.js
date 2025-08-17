@@ -64,6 +64,7 @@ describe('Login spec', () => {
       .contains(/^Login$/)
       .click();
 
-    cy.get('a[href="/new"]').should('be.visible');
+    cy.url().should('include', '/');
+    cy.get('button.sign-out').should('be.visible').and('contain', 'Sign Out');
   });
 });
