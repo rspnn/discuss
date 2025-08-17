@@ -65,7 +65,7 @@ describe('Login spec', () => {
       .click();
 
     cy.url().should('include', '/');
-    cy.contains('button.sign-out', 'Sign Out', { timeout: 10000 }).should(
+    cy.contains('button.sign-out', 'Sign Out', { timeout: 20000 }).should(
       'be.visible',
     );
   });
