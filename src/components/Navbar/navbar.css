@@ -1,0 +1,51 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #595a5a;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav h1.logo {
+  font-size: 2rem;
+  color: #f0f0f0;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav ul li {
+  font-size: 1.2rem;
+  color: #f0f0f0;
+}
+
+nav ul li a,
+nav ul li button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+  font-weight: 500;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+nav ul li button {
+  font-size: 1.2rem;
+}
+
+nav ul li button:hover {
+  color: #f71f68;
+}
+
+nav ul li a:hover {
+  color: #d0d0d0;
+}

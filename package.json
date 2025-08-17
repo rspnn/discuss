@@ -1,0 +1,47 @@
+{
+  "name": "discuss",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint ./src",
+    "preview": "vite preview",
+    "test": "vitest",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "e2e": "cypress run"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.8.2",
+    "html-react-parser": "^5.2.6",
+    "prop-types": "^15.8.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-icons": "^5.5.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.8.1",
+    "styled-components": "^6.1.19"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "@testing-library/jest-dom": "^6.7.0",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^5.0.0",
+    "cypress": "^14.5.4",
+    "eslint": "^9.33.0",
+    "eslint-config-dicodingacademy": "^0.9.5",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "jsdom": "^26.1.0",
+    "vite": "^7.1.2",
+    "vitest": "^3.2.4"
+  }
+}

@@ -1,0 +1,68 @@
+/* Container */
+.leaderboard-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.leaderboard-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+/* List */
+.leaderboard-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Item */
+.leaderboard-item {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  transition: transform 0.15s ease;
+}
+
+.leaderboard-item:hover {
+  transform: translateY(-2px);
+}
+
+.rank {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #6b7280;
+  margin-right: 1rem;
+  width: 40px;
+  text-align: center;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 0.75rem;
+}
+
+.username {
+  flex: 1;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #374151;
+}
+
+.score {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #2563eb;
+}

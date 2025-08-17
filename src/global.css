@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #202020;
+  color: #f0f0f0;
+}
+
+.notfound-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* Vote Section */
+.vote-section {
+  display: flex;
+  align-items: center;
+  margin-top: 0.75rem;
+  gap: 0.5rem;
+}
+
+.vote-button {
+  background: none;
+  border: solid 1px #d1d5db;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 8px;
+  transition:
+    background-color 0.2s ease,
+    transform 0.1s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vote-button:hover {
+  background-color: #f3f4f6;
+  transform: scale(1.05);
+}
+
+.upvote {
+  color: #6b7280;
+}
+.upvote.active {
+  color: #16a34a;
+}
+
+.downvote {
+  color: #6b7280;
+}
+
+.downvote.active {
+  color: #dc2626;
+}
+
+.vote-count {
+  font-weight: 600;
+  font-size: 0.95rem;
+  min-width: 24px;
+  text-align: center;
+  color: #374151;
+}
+
+.login-footer,
+.register-footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.login-footer a,
+.register-footer a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Loading Animation */
+@keyframes loading {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}

@@ -1,0 +1,149 @@
+/* Container Utama */
+.thread-detail-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+/* Thread Card */
+.thread-detail-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.thread-detail-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #111827;
+}
+
+.thread-detail-body {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+  color: #4b5563;
+}
+
+.thread-detail-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 1.5rem;
+}
+
+.creator-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.creator-name {
+  font-weight: 500;
+  color: #374151;
+}
+
+.thread-time {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+/* Avatar */
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Comments Section */
+.comments-section {
+  margin-top: 2rem;
+}
+
+.comments-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.comment-card {
+  background-color: #f9fafb;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #e5e7eb;
+}
+
+.comment-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.comment-time {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.comment-body {
+  font-size: 0.95rem;
+  color: #374151;
+  line-height: 1.5;
+}
+
+/* Comment Form */
+.comment-form {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.comment-input {
+  width: 100%;
+  min-height: 80px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  font-size: 0.95rem;
+  font-family: inherit;
+  transition: border 0.2s ease;
+}
+
+.comment-input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.25);
+}
+
+.comment-submit {
+  align-self: flex-end;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 6px;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.comment-submit:hover {
+  background-color: #0056b3;
+}
